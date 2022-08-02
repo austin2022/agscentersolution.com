@@ -79,6 +79,11 @@ body {
   background: #111;
 }
 
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
 .wrapper {
   position: relative;
   overflow: hidden;
